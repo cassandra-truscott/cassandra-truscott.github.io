@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="af">
+
+<head>
+    
+<meta charset='UTF-8'/>
+<title>Kaapstad</title>
+    <style>
+        /*style of text*/
+        /*red#d62828*/
+        body{
+            background-color: #fff;
+        }
+        h1{
+            font-family: 'DM Serif Text', serif;
+            padding: 10px;
+            margin: auto;
+            padding: 30px;
+            font-size: 3em;
+            text-align: center;
+            color: #d62828;
+        }
+        h2{
+            font-family: 'DM Serif Text', serif;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            color: #d62828;
+        }
+        
+        h3{
+            font-family: 'Lato', sans-serif;
+            text-align: left;
+            color: #d62828;
+        }
+        h4{
+            font-family: 'Lato', sans-serif;
+            color: #fff;
+            font-size: 2em;
+        }
+        p{
+            font-family: 'Lato', sans-serif;
+            text-align: justify;
+            padding: 3px;
+        }
+        hr{
+            border-top: 2px solid #d62828;
+        }
+        
+/*create a class*/
+        
+.main-box{
+    padding: 30px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    width:70%;
+    max-width: 800px;
+    margin: auto; 
+    overflow: hidden;
+    background-color: #fff;
+        }
+
+.img-responsive{
+    max-width:100%;
+    display:block;
+    margin:auto;
+        }
+
+.colhalflft{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 6px;
+        }
+.colhalfrgt{
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 6px;
+        }
+        
+.header{
+    position: fixed;
+    padding: 1px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    /*padding: none;*/
+        } 
+
+.title{
+    padding: 1px;
+    background-color: rgba(255,255,255,0.75);
+    color: #d62828;
+    border-bottom: 10px solid #d62828;
+        }
+
+.nav{
+    max-width: 10%;
+    margin-top: 50px;
+    font-family: 'DM Serif Text', serif;
+    box-sizing: border-box;
+    color: #d62828;
+    left:0;
+    top:150px;
+        }
+        .nav li{
+            list-style: none inside;
+            font-size: 1.25em;
+            line-height: 1.25em;
+            display: block;
+            color: #d62828;
+            border-left: 2px solid #d62828;
+            text-indent: 5px;
+            width:10%;
+        }
+        .nav li a{
+            padding-right: 10px;
+            color: #d62828;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            color: #d62828;
+        }
+        a:hover{
+            color: #ffce00;
+        }
+        
+        
+.footer{
+    overflow: hidden;
+    background-color: #d62828;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding-left: 30%;
+    color: #fff;
+        }
+        .footer  a{
+            padding-right: 10px;
+            color: #fff;
+        }
+        a:link{
+            text-decoration: underline;
+        }
+        a:visited{
+            color: #f0f0f0;
+        }
+        a:hover{
+            color: #f0f0f0;
+        }
+        
+.footerbox{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 6px;
+        }
+
+    </style>
+    </head>
+    
+    
+    
+<body>
+    
+    <div class="header">
+        <div class="title">
+        <h1>Welkom in Kaapstad</h1>
+            </div>
+    <ul class="nav">
+        <li><a href="#tafelberg">Tafelberg</a></li>
+        <li><a href="#aard">Aard</a></li>
+        <li><a href="#kultuur">Kultuur</a></li>
+        <li><a href="#mense">Mense</a></li>
+    </ul>
+    
+    </div>
+    
+    
+    
+    <div class="main-box">
+    
+    <p>Daar is nêrens soos Kaapstad nie - 'n samesmelting van kulture, kombuise en landskappe; 'n unieke stad wat bekroon word deur die pragtige Tafelberg Nasionale Park.</p>
+    
+    <hr>
+    
+    
+    <h2 id="tafelberg">Tafelberg</h2>
+    <img class="img-responsive" src="images/tafelberg.jpg" alt="'n foto van tafelberg">
+    <p>Die trots van Kaapstad, Tafelberg, is 'n ikoon wat wêreldwyd erken word. Die unieke tafelblad is dikwels bedek met fyn wolk, wat die plaaslike bevolking die 'tafeldoek' noem. Neem die karretjie na die berg of klim op die selde gereide bergpaadjie, en verras jou deur die uitsigte oor ons pragtige stad.</p>
+        
+    <hr>
+      
+        
+    <h2 id="aard">Aard</h2>
+    <img class="img-responsive" src="images/proteia.jpg" alt="Geel proteas oor Nordhoekstrand">
+    <p>Die pragtige landskappe van Kaapstad is werklik uniek. Geniet ons pragtige wit sandstrande of stap deur die inheemse Afrika-bos, 'n huldeblyk aan die volke en kulture wat voor ons gekom het.</p>
+        <div class="colhalflft">
+        <h3>Muizenburg</h3>
+            <img class="img-responsive" src="images/musenburg.jpg" alt="Wit sand van muizenburg">
+            <p>Die wit sand met die kontras van die kleurryke strandkuilhutte is 'n wonderlike gesig in 'n stranddorp-atmosfeer. Surfers was oral toe ons hier was.</p>
+        </div>
+        <div class="colhalfrgt">
+        <h3>Noordhoek</h3>
+            <img class="img-responsive" src="images/nordhoek.jpg" alt="Die wit sand van Noordhoek">
+            <p>Die Noordhoek-vallei bly een van Kaapstad se kosbare bestemmings. Dit is aan die voet van Chapman's Peak geleë en omring deur Tafelberg Nasionale Park.</p>
+        </div>
+        
+        <hr>
+        
+        
+        <h2 id="kultuur">Kultuur</h2>
+            <img class="img-responsive" src="images/capitol.jpg" alt="Die bateem capitol van Kaaptad">
+        <p>Kaapstad is 'n smeltkroes van mense en kulture en die uiteenlopende erfenis van die stad kan verken word deur sy historiese argitektuur en kleurryke kookkuns.</p>
+        <div class="colhalflft">
+        <h3>Kaapkultuur</h3>
+            <img class="img-responsive" src="images/marina.jpg" alt="Die marina oor visvang">
+            <p>Kaapstad bied baie geleenthede om ons kultuur te beleef. Van ons geskiedenis om die sewe seë as Nederlandse setlaars te vaar, tot ons tradisionele danse wat deur die Kaapse Khoekhoe uitgevoer word, het Kaapstad iets vir almal.</p>
+        </div>
+        <div class="colhalfrgt">
+        <h3>Seelewe</h3>
+            <img class="img-responsive" src="images/aquarium.jpg" alt="Vis oor die Kaapstad akkris">
+            <p>Kaapstad bied baie insigte oor die lewe op die see. Die oudste stad in Suid-Afrika, en die snaaksste, is daar baie maniere om ons daaglikse lewe te ervaar, van paddleboarding teen dagbreek in Port Alfred tot swem in Nordhoek in die middag.</p>
+        </div>
+        
+        <hr>
+        
+        
+        <h2 id="mense">Mense</h2>
+            <img class="img-responsive" src="images/mense.jpg" alt="Neegen mense van die kaap">
+        <p>Kaapstad is 'n smeltkroes van mense en kulture en die uiteenlopende erfenis van die stad kan verken word deur sy historiese argitektuur en kleurryke kookkuns.</p>
+        <div class="colhalflft">
+        <h3>Kombuise</h3>
+            <img class="img-responsive" src="images/portalfred.jpg" alt="Die mus varrkreis kombuise rant is kaapstad die Port Alfred">
+            <p>Kaapstad bied baie geleenthede om ons kultuur te beleef. Van ons geskiedenis om die sewe seë as Nederlandse setlaars te vaar, tot ons tradisionele danse wat deur die Kaapse Khoekhoe uitgevoer word, het Kaapstad iets vir almal.</p>
+        </div>
+        <div class="colhalfrgt">
+        <h3>Gebeure</h3>
+            <img class="img-responsive" src="images/town.jpg" alt="'N skyver van kaapstad">
+            <p>Kaapstad bied baie insigte oor die lewe op die see. Die oudste stad in Suid-Afrika, en die snaaksste, is daar baie maniere om ons daaglikse lewe te ervaar, van paddleboarding teen dagbreek in Port Alfred tot swem in Nordhoek in die middag.</p>
+        </div>
+        
+        <hr>
+        
+            
+</div>
+    
+    <div class="footer">
+        <h4>Travel</h4>
+        <p><a href="http://www.airports.co.za/airports/cape-town-international/the-airport/about-the-airport" target="_blank">Cape Town International Airport</a></p>
+        <p><a href="http://www.excitetaxis.co.za/" target="_blank">Excite Taxi Service</a></p>
+            
+    </div>
+    
+    </body>
+    
+</html>
